@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "autopep8.args": ["--max-line-length=79"],
+  "autopep8.interpreter": [
+      "/home/rocco/.local/share/virtualenvs/qa-bot-nKOpTyCl/bin/python"
+  ]
+}
