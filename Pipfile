@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 pdfplumber = "*"
 autopep8 = "*"
+tiktoken = "*"
 
 [dev-packages]
 
