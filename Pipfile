@@ -7,6 +7,13 @@ name = "pypi"
 pdfplumber = "*"
 autopep8 = "*"
 tiktoken = "*"
+python-dotenv = "*"
+pymongo = "*"
+openai = "*"
+
+[scripts]
+embed_and_index = "python scripts/embed_and_index.py"
+generate_synthetic_qa_dataset = "python scripts/synthetic_qa_generation.py"
 
 [dev-packages]
 
