@@ -430,77 +430,33 @@ def create_train_val_split(source_file: Path, train_file: Path, val_file: Path, 
         f"Validation Set: {len(val_records)} total ({len(positive_records[pos_split_idx:])} pos, {len(refusal_records[ref_split_idx:])} neg)")
 
 
-# def main():
-#     """Main function to generate the synthetic QA dataset."""
-#     print("Fetching substantive legal articles from MongoDB...")
-#     query = {"metadata.is_definition": False}
-#     primary_docs = list(collection.find(query, {"_id": 1}))
-#     total_docs = len(primary_docs)
-#     print(f"Found {total_docs} substantive articles to process.")
-
-#     processed_count = 0
-#     total_positive_pairs = 0
-
-#     # Positive Synthetic QA Generation
-#     print("\n--- Starting Positive QA Generation ---")
-#     for idx, doc_stub in enumerate(primary_docs, 1):
-#         doc_id = doc_stub["_id"]
-#         qa_pairs = generate_dataset_batch(doc_id)
-
-#         if qa_pairs:
-#             append_to_jsonl(OUTPUT_FILE, qa_pairs)
-#             total_positive_pairs += len(qa_pairs)
-
-#         processed_count += 1
-#         if idx % 25 == 0 or idx == total_docs:
-#             print(
-#                 f"Progress: [{idx}/{total_docs}] articles processed. Total QA pairs so far: {total_positive_pairs}")
-
-#         time.sleep(0.05)
-
-#     # Negative Refusal QA Generation
-#     TARGET_REFUSALS = 150
-#     print(f"\n--- Generating {TARGET_REFUSALS} Negative Refusal Pairs ---")
-
-#     refusal_pipeline = [
-#         {"$match": {"metadata.is_definition": False}},
-#         {"$sample": {"size": TARGET_REFUSALS}}
-#     ]
-#     refusal_source_docs = list(collection.aggregate(refusal_pipeline))
-
-#     total_refusals = 0
-#     for idx, sample_doc in enumerate(refusal_source_docs, 1):
-#         refusal_pairs = generate_refusal_batch(sample_doc)
-#         if refusal_pairs:
-#             append_to_jsonl(OUTPUT_FILE, refusal_pairs)
-#             total_refusals += len(refusal_pairs)
-
-#         if idx % 20 == 0 or idx == len(refusal_source_docs):
-#             print(
-#                 f"Refusal Progress: [{idx}/{len(refusal_source_docs)}] generated.")
-
-#         time.sleep(0.05)
-
-#     print(f"\nGeneration Complete!")
-#     print(f"Positive QA pairs: {total_positive_pairs}")
-#     print(f"Refusal QA pairs:  {total_refusals}")
-#     print(f"Total Dataset:     {total_positive_pairs + total_refusals}")
-
-#     # Generate QLoRA train/val splits
-#     print("\nSplitting into train/val sets...")
-#     create_train_val_split(OUTPUT_FILE, TRAIN_FILE, VAL_FILE, val_ratio=0.10)
-
 def main():
-    """Main function to append synthetic refusals to the existing dataset."""
-    print("Loading existing positive QA pairs...")
+    """Main function to generate the synthetic QA dataset."""
+    print("Fetching substantive legal articles from MongoDB...")
+    query = {"metadata.is_definition": False}
+    primary_docs = list(collection.find(query, {"_id": 1}))
+    total_docs = len(primary_docs)
+    print(f"Found {total_docs} substantive articles to process.")
 
+    processed_count = 0
     total_positive_pairs = 0
-    if OUTPUT_FILE.exists():
-        with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
-            # Count the existing lines to track progress accurately
-            total_positive_pairs = sum(1 for line in f if line.strip())
 
-    print(f"Found {total_positive_pairs} previously generated positive pairs. Skipping positive generation phase.")
+    # Positive Synthetic QA Generation
+    print("\n--- Starting Positive QA Generation ---")
+    for idx, doc_stub in enumerate(primary_docs, 1):
+        doc_id = doc_stub["_id"]
+        qa_pairs = generate_dataset_batch(doc_id)
+
+        if qa_pairs:
+            append_to_jsonl(OUTPUT_FILE, qa_pairs)
+            total_positive_pairs += len(qa_pairs)
+
+        processed_count += 1
+        if idx % 25 == 0 or idx == total_docs:
+            print(
+                f"Progress: [{idx}/{total_docs}] articles processed. Total QA pairs so far: {total_positive_pairs}")
+
+        time.sleep(0.05)
 
     # Negative Refusal QA Generation
     TARGET_REFUSALS = 150
@@ -530,7 +486,7 @@ def main():
     print(f"Refusal QA pairs:  {total_refusals}")
     print(f"Total Dataset:     {total_positive_pairs + total_refusals}")
 
-    # Generate QLoRA train/val splits using the stratified function created earlier
+    # Generate QLoRA train/val splits
     print("\nSplitting into train/val sets...")
     create_train_val_split(OUTPUT_FILE, TRAIN_FILE, VAL_FILE, val_ratio=0.10)
 
