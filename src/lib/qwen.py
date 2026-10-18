@@ -21,6 +21,8 @@ _REQUEST_TIMEOUT_SECONDS = 120
 _PENDING_STATUSES = {"IN_QUEUE", "IN_PROGRESS"}
 _FAILED_STATUSES = {"FAILED", "CANCELLED", "TIMED_OUT"}
 _RETRYABLE_STATUS_CODES = {408, 429, 500, 502, 503, 504}
+STOP_STRING = "Rwandan legal context."
+_CUTOFF_BEFORE_STOP = "based on the provided "
 
 
 class _RunPodJobTimeout(TimeoutError):
@@ -79,6 +81,19 @@ def _job_error(payload: dict, status: str) -> str:
     return f"RunPod job {status}: {error}"
 
 
+def append_stop_if_cut(text: str) -> str:
+    """Restore the stop phrase when the reply was cut off immediately before it."""
+    if text.endswith(STOP_STRING):
+        return text
+    if text.endswith(_CUTOFF_BEFORE_STOP):
+        return text + STOP_STRING
+    return text
+
+
+def _stopped_on_phrase(choice: dict) -> bool:
+    return choice.get("stop_reason") == STOP_STRING
+
+
 def _extract_content(payload: dict) -> str:
     output = payload.get("output")
     if isinstance(output, list):
@@ -90,11 +105,14 @@ def _extract_content(payload: dict) -> str:
     choices = output.get("choices") or []
     if not choices or not isinstance(choices[0], dict):
         raise ValueError("RunPod response did not include any choices.")
-    message = choices[0].get("message") or {}
+    choice = choices[0]
+    message = choice.get("message") or {}
     content = message.get("content")
     if not isinstance(content, str):
         raise ValueError("RunPod response did not include assistant text.")
-    return content
+    if _stopped_on_phrase(choice) and not content.endswith(STOP_STRING):
+        return content + STOP_STRING
+    return append_stop_if_cut(content)
 
 
 def _wait_for_job(job_id: str) -> dict:
@@ -153,7 +171,7 @@ def qwen(
                 "messages": messages,
                 "max_tokens": max_tokens,
                 "temperature": temperature,
-                "stop": ["Rwandan legal context."],
+                "stop": [STOP_STRING],
             },
         }
     }

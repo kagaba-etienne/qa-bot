@@ -1,0 +1,16 @@
+metric,subset,n,mean
+refusal_exact_match,all,199,0.000000
+refusal_exact_match,gold_refusals,199,0.000000
+refusal_exact_match,refusal_A,6,0.000000
+refusal_exact_match,refusal_B,4,0.000000
+refusal_exact_match,refusal_C,5,0.000000
+faithfulness_score,all,199,1.032652
+faithfulness_score,gold_refusals,199,1.032652
+faithfulness_score,refusal_A,6,1.006964
+faithfulness_score,refusal_B,4,1.001957
+faithfulness_score,refusal_C,5,1.006615
+relevance_score,all,199,1.344085
+relevance_score,gold_refusals,199,1.344085
+relevance_score,refusal_A,6,1.326907
+relevance_score,refusal_B,4,1.862086
+relevance_score,refusal_C,5,1.325898
