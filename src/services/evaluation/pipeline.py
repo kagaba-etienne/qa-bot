@@ -8,7 +8,12 @@ from src.services.evaluation.prompts import LLM_METRICS, REFUSAL_STRING
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 RESULTS_DIR = PROJECT_ROOT / "data" / "results"
-VARIANTS = ("baseline_no_rag", "finetuned_no_rag", "finetuned_with_rag")
+VARIANTS = (
+    "baseline_no_rag",
+    "baseline_with_rag",
+    "finetuned_no_rag",
+    "finetuned_with_rag",
+)
 
 QA_COLUMNS = (
     "question",
@@ -142,7 +147,8 @@ def load_predictions(path: Path) -> list[dict]:
             try:
                 record = json.loads(line)
             except json.JSONDecodeError as exc:
-                raise ValueError(f"{path}:{line_no} is not valid JSON.") from exc
+                raise ValueError(
+                    f"{path}:{line_no} is not valid JSON.") from exc
             if not isinstance(record, dict):
                 raise ValueError(f"{path}:{line_no} must be a JSON object.")
             for field in _REQUIRED_FIELDS:
@@ -154,7 +160,8 @@ def load_predictions(path: Path) -> list[dict]:
                 if field == "context" and value is None:
                     value = ""
                 if not isinstance(value, str):
-                    raise ValueError(f"{path}:{line_no} field '{field}' must be a string.")
+                    raise ValueError(
+                        f"{path}:{line_no} field '{field}' must be a string.")
                 normalized[field] = value
             category = record.get("refusal_category")
             if category not in _VALID_CATEGORIES:
@@ -183,21 +190,25 @@ def _load_evaluated_rows(path: Path) -> list[dict]:
 def _append_row(path: Path, row: dict) -> None:
     write_header = not path.exists() or path.stat().st_size == 0
     with path.open("a", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=QA_COLUMNS, lineterminator="\n")
+        writer = csv.DictWriter(
+            handle, fieldnames=QA_COLUMNS, lineterminator="\n")
         if write_header:
             writer.writeheader()
-        writer.writerow({column: _cell(row.get(column, "")) for column in QA_COLUMNS})
+        writer.writerow({column: _cell(row.get(column, ""))
+                        for column in QA_COLUMNS})
 
 
 def _write_summary(path: Path, rows: list[dict]) -> None:
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=SUMMARY_COLUMNS, lineterminator="\n")
+        writer = csv.DictWriter(
+            handle, fieldnames=SUMMARY_COLUMNS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(summarize(rows))
 
 
 def _score_prediction(prediction: dict, steps: dict[str, str], score_fn) -> dict:
-    fields = refusal_fields(prediction["gold_response"], prediction["model_response"])
+    fields = refusal_fields(
+        prediction["gold_response"], prediction["model_response"])
     row = {
         "question": prediction["question"],
         "context": prediction["context"],
@@ -259,7 +270,8 @@ def evaluate_variant(results_dir: Path, steps: dict[str, str], score_fn=None) ->
             print(f"  [{index}/{len(predictions)}] failed: {exc}")
             continue
         _append_row(qa_path, scored)
-        cached[key] = {column: _cell(scored.get(column, "")) for column in QA_COLUMNS}
+        cached[key] = {column: _cell(scored.get(column, ""))
+                       for column in QA_COLUMNS}
         ordered.append(cached[key])
         print(f"  [{index}/{len(predictions)}] scored")
     _write_summary(results_dir / "summary.csv", ordered)
@@ -291,7 +303,8 @@ def run_evaluation(variants: list[str], refresh_cot: bool = False) -> int:
     steps = get_evaluation_steps(refresh=refresh_cot)
     for metric_key in LLM_METRICS:
         if metric_key not in steps:
-            raise ValueError(f"Auto-CoT cache is missing steps for {metric_key}.")
+            raise ValueError(
+                f"Auto-CoT cache is missing steps for {metric_key}.")
     failures = 0
     for folder in folders:
         failures += evaluate_variant(folder, steps)

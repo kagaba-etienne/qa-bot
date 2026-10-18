@@ -11,11 +11,16 @@ python-dotenv = "*"
 pymongo = "*"
 openai = "*"
 dataspires = "*"
+requests = "*"
+fastapi = "*"
+uvicorn = "*"
 
 [scripts]
 embed_and_index = "python scripts/embed_and_index.py"
 generate_synthetic_qa_dataset = "python scripts/synthetic_qa_generation.py"
-finetune = "python scripts/finetune.py"
+predict = "python scripts/generate_predictions.py"
+evaluate = "python scripts/evaluate.py"
+api = "uvicorn src.main:app --host 127.0.0.1 --port 8000 --reload"
 
 [dev-packages]
 

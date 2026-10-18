@@ -1,0 +1,12 @@
+.git
+.env
+.venv
+data
+model
+notebooks
+research
+**/__pycache__
+**/*.pyc
+frontend/node_modules
+frontend/build
+frontend/.react-router

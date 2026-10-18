@@ -17,6 +17,8 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 MONGO_URI = os.environ.get("MONGO_URI")
 DB_NAME = os.environ.get("DB_NAME", "rwandan_law")
 COLLECTION_NAME = os.environ.get("COLLECTION_NAME", "articles")
+RUNPOD_API_KEY = os.environ.get("RUNPOD_API_KEY")
+RUNPOD_ENDPOINT_ID = os.environ.get("RUNPOD_ENDPOINT_ID")
 
 if not OPENAI_API_KEY or not MONGO_URI:
     raise ValueError(f"Missing required environment variables in {ENV_PATH}.")
