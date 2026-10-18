@@ -10,10 +10,12 @@ tiktoken = "*"
 python-dotenv = "*"
 pymongo = "*"
 openai = "*"
+dataspires = "*"
 
 [scripts]
 embed_and_index = "python scripts/embed_and_index.py"
 generate_synthetic_qa_dataset = "python scripts/synthetic_qa_generation.py"
+finetune = "python scripts/finetune.py"
 
 [dev-packages]
 
