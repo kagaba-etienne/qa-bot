@@ -1,0 +1,551 @@
+stratum,question,context,gold_response,baseline_no_rag,baseline_with_rag,finetuned_no_rag,finetuned_with_rag,notes_baseline_no_rag,notes_baseline_with_rag,notes_finetuned_no_rag,notes_finetuned_with_rag
+positive,"I learned through my professional role that a felony may soon be committed, and I can help prevent it by telling judicial authorities. If I disclose the confidential information to them, could that itself count as a breach of professional secrecy, and am I required to report it?","Document [1] (Citation: Article 158 of Law N° 68/2018):
+Article 158: Breach of professional secrecy
+Any person who reveals professional secrecy entrusted as privilege to keep by virtue of function, occupation or mandate of a religion, whether in service or after leaving the service, commits an offence.
+Upon conviction, he/she is liable to imprisonment for a term of not less than one
+(1) year and not more than two (2) years and a fine of not less than two million Rwandan francs (FRW 2,000,000) and not more than three million Rwandan francs (FRW
+3,000,000).
+However, it is not a breach of professional secrecy:
+1º if the law requires or allows the disclosure 1 of a professional secrecy;
+2º for a person providing information to 2 judicial authorities.
+
+Document [2] (Citation: Article 243 of Law N° 68/2018):
+Article 243: Non-disclosure of a felony or misdemeanour
+Any person who has information of a felony or a misdemeanour about to be committed or which has been committed and fails to immediately inform security, judicial or administrative authorities when he/she is able to do so, while this information could help to prevent the commission or limit its effects commits an offence.
+Upon conviction, he/she is liable to imprisonment for a term of not less than six
+(6) months and not more than one (1) year and a fine of not less than one hundred thousand (FRW 100,000) Rwandan francs and not more than three hundred thousand (
+FRW 300,000) Rwandan francs.
+
+Document [3]:
+When this failure to disclose this offence led to its commission or failure to disclose the commission of the offence resulted into negative consequences, the penalty is imprisonment for a term of more than one
+(1) year and not more than two (2) years and a fine of more than three hundred thousand
+(FRW 300,000) Rwandan francs and not more than five hundred thousand (FRW
+500,000) Rwandan francs.
+If the felony or the misdemeanour is about to be committed or has been committed against a child, penalties provided for under
+Paragraphs 2 and 3 of this Article are doubled.
+
+Document [4] (Citation: Article 192 of Law N° 68/2018):
+Article 192: Offences classified as treason or espionage and their penalties
+Any person who:
+1º discloses deliberately a State secret by any 1 means with the intention to hurt the interests of the Republic of Rwanda;
+2º seeks and obtains a State secret with a view 2 of disclosing it;
+3º destroys or allows another person to destroy 3 anything that contains a State secret with intent to favour another country;
+4
+4º is entitled to have access to State secret and uses it illegally;
+5
+5º deliberately discloses to a person not entitled to receive a State secret that he/she obtained in the course of his/her duties or functions;
+6
+6º establishes, maintains or keeps relations with a foreign State, political organization, association, foreign institutions or any person working for them with a purpose of disclosing State secrets;
+
+Document [5]:
+7º commits acts of treason with an intention of 7 undermining national defence, diplomatic relations or essential economic interest of the Rwandan Government; commits the offence of treason when the offender is a Rwandan or of espionage when the offender is a foreigner.
+Upon conviction, he/she is liable, in wartime, to imprisonment for a term of not less than twenty (20) years and not more than twenty (25) years. In peacetime, he/she is liable to imprisonment for a term of not less than ten (10) years to fifteen (15) years.
+If acts mentioned in Paragraph One of this
+Article are performed due to clumsiness, recklessness or negligence, the penalty, during wartime, is an imprisonment for a term of more than five (5) years and not more than seven (7) years. In peacetime, the penalty is an imprisonment for a term of not less than one (1) year and not more than three (3) years.
+In this Law, State secret is any act or all acts, knowledge, any documents where they may be or any explanations prohibited by the law for purposes of defending the nation.
+
+Document [6] (Citation: Article 156 of Law N° 68/2018):
+Article 156: Secretly listening to conversations, taking photos or disclosing them
+Any person who, in bad faith and in any way, infringes the personal privacy of another person by:
+1º secretly listening to, or disclosing, people’s confidential statements without authorisation;
+2º taking a photo, audio or visual recording or disclosing them without one’s authorisation; commits an offence.
+Any person who is convicted of any of the acts referred to in Paragraph One of this
+Article, is liable to imprisonment for a term of not less than six (6) months and not more than one (1) year and a fine of not less than one million Rwandan francs (FRW
+1,000,000) and not more than two million
+Rwandan francs (FRW 2,000,000) or only one of these penalties.
+If the acts referred to in Paragraph One of this Article are committed in full view and awareness of the persons concerned and without opposing the acts while they were able to do so, their consent is presumed.
+
+Document [7]:
+The penalties referred to in Paragraph 2 of this Article also apply to a person who, in bad faith, distributes in any way whatsoever, a photo, audio and video, recordings or documents obtained as a result of one of the acts referred to in
+Paragraph One of this Article.","According to Article 158 of Law N° 68/2018, providing information to judicial authorities is not a breach of professional secrecy. According to Article 243 of Law N° 68/2018, a person who has information about a felony or misdemeanour about to be committed must immediately inform security, judicial, or administrative authorities if able to do so and if the information could help prevent the offence or limit its effects. Article 243 provides imprisonment of six months to one year and a fine of FRW 100,000 to FRW 300,000 upon conviction for failing to report; if the failure leads to the offence or has negative consequences, it provides imprisonment of more than one year to two years and a fine of more than FRW 300,000 to FRW 500,000.","Yes, disclosing confidential information about a potential felony to judicial authorities is generally considered a breach of professional secrecy. However, whether you need to report it depends on local laws and regulations regarding confidentiality and reporting obligations.
+
+In most jurisdictions, professionals have a duty to maintain the confidentiality of client information, including any communications related to criminal activity. Reporting such information would typically require formal documentation or notification procedures, which might include filing a report with an appropriate authority (such as a prosecutor or court).
+
+If you decide to disclose this information, it's important to document the details and ensure compliance with all applicable laws and regulations. This includes keeping records of the communication, informing clients if they believe their rights were violated, and following any specific reporting requirements set forth by your organization or","Yes, you could still commit a breach of professional secrecy by revealing confidential information to judicial authorities. According to Article 158 of Law N° 68/2018, ""any person who reveals professional secrecy entrusted as privilege to keep by virtue of function, occupation or mandate of a religion, whether in service or after leaving the service, commits an offence."" This includes informing judicial authorities about a potential felony or misdemeanor that may soon be committed. However, reporting such information would typically involve formal documentation or communication with the appropriate authorities, rather than simply sharing it with them directly.","According to Article 106 of Law N° 71/23 of 30/08/23 and Article 105 of Law N° 71/23 of 30/08/23, disclosing confidential information obtained from a superior or another person who is exercising or has exercised influence over you without authorization is prohibited. According to Article 107 of Law N° 71/23 of 30/08/23, if you deliberately disclose such confidential information to a judicial authority, you may face termination of your employment contract. According to Article 109 of Law N° 71/23 of 30/0","According to Article 158 of Law N° 68/2018, revealing professional secrecy entrusted as a privilege to keep by virtue of a function, occupation, or mandate of a religion may constitute a breach of professional secrecy. Upon conviction, the person is liable to imprisonment for at least one year and up to two years, and a fine of at least FRW 2,000,000 and up to FRW 3,000,000. The article says it is not a breach because it was not required to disclose the secrecy. Citation used: Article 158 of Law N° 68/2018. According to Article 243","The model is hedging, not full saying it is an offense or not because it lacks proper context of Rwandan legal space. Moreover, the model did not respect the instructions of not answering when there is not provided context","The model is not able to capture the exception of Article 158, when reporting to Judicial authorities.","The response has a correct format but the model is hallucinating Articles, also not refusing since it had no context.","correct citation, needing longer response tokens, not able to reason on the context"
+positive,"I need proof of my relative’s death, but the civil registrar has not given me a copy of the death record. What can I do?","Document [1] (Citation: Article 15 of Law N° 71/2024):
+Article 15: Proof of death
+Proof of death is established by a death record issued by the civil registrar, except in cases where the law authorizes another method of proof.
+
+Document [2] (Citation: Article 95 of Law N° 71/2024):
+Article 95: Competent persons to register death
+(1) One of the parents of a deceased person, his or her spouse or any other person who has sufficient information on the civil status of the deceased seeks registration of the death with the civil registrar. The death record is drawn according to the declaration. In case the deceased’s civil status is unknown, the death record is drawn up according to the declaration made by the competent authority of the place of death or by the healthcare facility administration, in case he or she died at the healthcare facility.
+(2) The death certificate is signed by the declarant, two witnesses aged 18 or over and the registrar.
+
+Document [3] (Citation: Article 94 of Law N° 71/2024):
+Article 94: Registration of death
+(1) The registration of death is done in the healthcare facility where the death occurred upon presentation of a certificate of death issued by a medical professional from the healthcare facility where the death occurred.
+(2) A person who seeks registration of the death occurring in a place other than a healthcare facility does so within 30 days after the date of death upon presentation of a certificate issued by the competent authority in administrative decentralized entities and in the presence of two witnesses aged at least eighteen 18 years.
+(3) If the local authority has issued a burial permit, the death is immediately recorded in the register of death records. However, after a period of 30 days has passed without having informed the local authority of the occurrence of the death or notified him or her in writing thereof, or without having declared the death, the declarant sends a written note to the competent authority in administrative decentralized entities explaining the reasons for the delay and requesting registration of the death.
+
+Document [4] (Citation: Article 99 of Law N° 71/2024):
+Article 99: Issuance of a copy of death record
+(1) The death record or extract thereof is issued by the civil registrar at the request of the spouse, child, parent, siblings of the deceased or other interested person.
+
+Document [5]:
+(2) In case the civil registrar fails to issue a copy of civil status record, the applicant may refer the matter to the immediate supervisor of the civil registrar. In case of unsatisfactory answer, he or she files a case before a competent court which rules on the matter under summary procedure.","According to Article 15 of Law N° 71/2024, proof of death is generally established by a death record issued by the civil registrar, unless the law authorizes another method. According to Article 99 of Law N° 71/2024, a spouse, child, parent, sibling, or other interested person may request a copy or extract of the death record. If the registrar does not issue it, you may refer the matter to the registrar’s immediate supervisor; if the answer is unsatisfactory, you may file a case before a competent court, which rules under summary procedure.","To obtain proof of your relative's death, you should contact the local police department or the court where the death occurred. They will be able to provide you with the necessary documents. Additionally, if the death was reported by an official such as a coroner or medical examiner, they may have records that can be obtained from them. It is advisable to consult these sources directly rather than relying solely on the civil registrar.","Based on the provided Rwandan legal context, if the civil registrar has not issued a copy of the death record, you have several options:
+
+1. **Seek Assistance from the Immediate Supervisor**: If the registrar refuses to issue a copy, you should seek assistance from the immediate supervisor of the registrar. This supervisor will be responsible for issuing the copy of the death record.
+
+2. **File a Case Before a Court**: If the registrar still refuses to issue a copy despite seeking help from the supervisor, you can file a case before a competent court. Under summary procedure, the court will rule on the matter.
+
+3. **Contact the Local Authority**: If the registrar continues to refuse to issue a copy, you might consider contacting the local authority that registered the","According to Article 108 of Law N° 68/2018, if there is no civil record of the death, an interested person may apply to the competent court within one year from the date the cause of death was known to prove the death or file a claim before the competent court alleging that the death occurred. The applicant submits a written declaration specifying his or her name, domicile, and domicile address; evidence proving the cause of death; and any other information that may assist in identifying the deceased. The court may order the declarant to provide information or may order another investigation. The declarant may appeal the decision of the court. Article 109 also provides that the competent court may order restoration of the disappeared","According to Article 15 of Law N° 71/2024, proof of death is established by a death record issued by the civil registrar, except when the law authorizes another method of proof. According to Article 99 of Law N° 71/2024, if the civil registrar fails to issue a copy, an interested person may request issuance; if the answer is unsatisfactory, they may file a case before a competent court that decides the matter under summary procedure. Citations: Articles 15 and 99 of Law N° 71/2024.","The model is not grounded in the Rwandan Law, also did not refuse to answer since it did not have context",The model hallucinates on the 3rd point mentioning that the user can contact local authorities yet the context does not say so.,"The response has a correct format but the model is hallucinating Articles, also not refusing since it had no context.","The model correctly used the context, to answer the question with the correct format"
+positive,I have documents about an act that violated the law by a Rwandan soldier in a foreign country. Can those documents have legal effect before a Rwandan court?,"Document [1] (Citation: Article 331 of Law N° 68/2018):
+Article 331: Legal effect of documents related to offences committed by
+Rwandan soldiers in foreign countries
+Documents related to acts that violate laws committed by Rwandan soldiers in foreign countries have legal effect before Rwandan
+
+Document [2]:
+Courts in accordance with the Rwandan laws.
+TITLE V: MISCELLANEOUS,
+TRANSITIONAL AND FINAL
+PROVISIONS
+
+Document [3] (Citation: Article 330 of Law N° 68/2018):
+Article 330: Violation by a soldier of some foreign legal and regulatory provisions
+A soldier who violates a foreign law where he/she is serving, is prosecuted by Rwandan military courts in accordance with
+Rwandan law as if such an act has been committed on the Rwandan territory provided that it is punishable by the
+Rwandan law.
+If the act committed is not an offence under the Rwandan law, he/she is subject to disciplinary sanction.
+
+Document [4] (Citation: Article 4 of Law N° 71/2024):
+Article 4: Effect of foreign laws, judgments, legal acts and agreements made abroad
+Foreign laws, judgments, legal acts or private agreements have no effect in Rwanda when they are contrary to the rules of public order, social interest or Rwandan good morals.
+
+Document [5] (Citation: Article 10 of Law N° 68/2018):
+Article 10: Applicable law to punish an offence committed on the territory of
+Rwanda
+Any offence committed on the Rwandan territory, either by a Rwandan or a foreign citizen, is punished according to the
+Rwandan law.
+However, the provisions of Paragraph One of this Article do not apply to people entitled to diplomatic immunity guaranteed by international conventions ratified by
+Rwanda or by international customs or practices.","According to Article 331 of Law N° 68/2018, documents related to acts that violate laws committed by Rwandan soldiers in foreign countries have legal effect before Rwandan courts in accordance with Rwandan laws.","Yes, the documents can have legal effect before a Rwandan court if they meet certain requirements set forth in Rwandan law. The specific criteria may vary depending on the type of document and its relevance to the case at hand, but generally, documents related to acts of violence or crimes against humanity committed abroad would be considered. It is advisable to consult with a lawyer familiar with Rwandan legal procedures to ensure compliance with all applicable laws and regulations.","Yes, the documents related to the act that violated the law by a Rwandan soldier in a foreign country can have legal effect before a Rwandan court. According to Article 331 of Law N° 68/2018, these documents will be considered relevant evidence in determining whether the act was committed within the Rwandan territory.",I cannot answer this question based on the provided Rwandan legal context.,"According to Article 331 of Law N° 68/2018, documents related to acts that violate laws committed by Rwandan soldiers in another country have legal effect before Rwandan courts in accordance with Rwandan laws. The article also states that documents from that period may be prosecuted in accordance with Rwandan law, provided the act is punishable by Rwandan law. Citation: Article 331 of Law N° 68/2018. Based on the provided text, the answer depends on whether the act was punishable by Rwandan law. If it was, the document’s legal effect would follow Rwandan law. If it was not punishable by Rwandan law, the document’s legal effect would be","The model is not refusing to answer, no citation, also overly hedging","The models uses the context, but hallucinates right near the end","Correct instruction following, and refusing when appropriate","Grounded response, the model is struggling to finish predictions (might need to properly configure the stop tokens)"
+positive,"I meet the requirements to adopt and want to apply for a simple adoption. Where do I apply, who must be present, and what happens if the requirements are fulfilled?","Document [1] (Citation: Article 326 of Law N° 71/2024):
+Article 326: Requirements for a Rwandan living in Rwanda intending to adopt a child
+(1) A person intending to adopt a child must meet the following requirements:
+(a) to be a person of integrity;
+(b) to have enough resources for him or her to meet the parental responsibility;
+(c) to be at least 21 years old;
+(d) to be at least seven years older than the child to be adopted;
+
+Document [2]:
+(e) to have a fixed address;
+(f) not to have been sentenced to imprisonment for the crime of genocide, the crime of genocide ideology and related crimes, the offence of trafficking in persons, the crime of child defilement, offences of domestic violence or any other felony;
+(g) not to have been deprived of parental authority.
+(2) Subject to the provisions of Paragraph (1)(d) of this Article, the person intending to adopt a child must be at least three years older than the adoptee if they are related up to the seventh degree and the child has mental disability or multiple disabilities.
+(3) The Minister in charge of children, depending on reasonable grounds, may reduce the difference of years provided for in this Article.
+
+Document [3] (Citation: Article 328 of Law N° 71/2024):
+Article 328: Competent authority to grant adoption for Rwandans resident in Rwanda
+(1) An application for simple adoption is made to the civil registrar of the domicile of the child to be adopted, in the presence of the person or persons applying for adoption, the parents of the child if they are alive or the head of the family council and at least two witnesses.
+(2) If the civil registrar finds that the requirements to adopt simply a child are fulfilled, the civil registrar draws up an adoption record which is submitted to the competent court to grant the approval.
+
+Document [4]:
+(3) Application for full adoption must first be considered by the authority in charge of children which submits the application file to the civil registrar of the residence of the child to draw up a document for submission to competent court for decision.
+
+Document [5] (Citation: Article 341 of Law N° 71/2024):
+Article 341: Relevance of and grounds for intercountry adoption
+(1) Intercountry adoption must be granted in the interests of the child.
+(2) Intercountry adoption occurs if the child –
+(a) resides in Rwanda and has to live in a foreign country;
+(b) has to be moved from the State of origin to live in Rwanda; or
+(c) resides in Rwanda without being authorized to settle there.
+
+Document [6] (Citation: Article 120 of Law N° 71/2024):
+Article 120: Requirements for a guardian
+(1) A guardian must –
+
+Document [7]:
+(a) be a Rwandan national;
+(b) be at least 21 years of age, with the exception of a person having reached the age of majority who has been authorized to marry before reaching 21 years of age;
+(c) be useful to the child;
+(d) have moral integrity guaranteeing the child’s good education;
+(e) not to have been sentenced to imprisonment for the crime of genocide, the crime of genocide ideology and related crimes, the offence of trafficking in persons, the crime of child defilement and offences of domestic violence; and
+(f) not to have been deprived of parental authority.
+(2) A guardian discharges the duty of guardianship voluntarily and free of charge.","According to Article 326 and Article 328 of Law N° 71/2024, you apply to the civil registrar at the domicile of the child. The application is made in the presence of the person or persons applying, the child’s parents if they are alive or the head of the family council, and at least two witnesses. If the civil registrar finds that the requirements for simple adoption are fulfilled, the registrar draws up an adoption record and submits it to the competent court for approval.","To adopt under Rwandan law, you would typically apply at the local court of first instance or a higher court. The specific application process can vary depending on the type of adoption (e.g., domestic, international), but generally involves filing an application with the appropriate court.
+
+The person who must be present at the application is usually the applicant themselves. However, if there are other parties involved in the adoption process, such as witnesses or representatives from the adopting country, they may also need to be present.
+
+If the requirements are met, the court will review the application and make a decision within 30 days. If approved, the court will issue a certificate of adoption and provide the adopted child with a birth certificate. If denied, the court will explain","To meet the requirements to adopt and apply for a simple adoption, you would need to follow these steps:
+
+1. **Application for Simple Adoption**: You should make an application to the civil registrar of the domicile of the child to be adopted, in the presence of the person or persons applying for adoption, the parents of the child if they are alive or the head of the family council and at least two witnesses.
+
+2. **Civil Registrar's Decision**: If the civil registrar finds that the requirements to adopt a simple child are fulfilled, they will draw up an adoption record which is then submitted to the competent court to grant the approval.
+
+If the requirements are met, the civil registrar will issue a document for submission to the competent court for decision. If the","According to Law N° 68/24 of 30/05/24 and Law N° 71/24 of 29/05/24, you may apply to adopt a child by simple adoption with the consent of both the child’s parents or those of those who approve their child’s marriage. The application is filed with the civil registrar where the child will be adopted. The required documents include a medical certificate from a recognised healthcare facility indicating the child’s health, a document issued by a recognised doctor stating his or her professional qualifications and disciplinary records, and a criminal record certificate issued by a judicial office. If the requirements are satisfied, the civil registrar issues a certificate of adoption and a copy","According to Article 326 of Law N° 71/2024, you must apply to the civil registrar of your domicile, where the child will be born, in the presence of the person or persons applying for the adoption, the child’s parents, or the head of the family council, and at least two witnesses. The requirement is that the person intending to adopt be at least three years older than the child and have a mental disability or multiple disabilities. According to Article 328 of Law N° 71/2024, the application must first be considered by the authority in charge of children, whose task is to submit the application file to the civil registrar of the child’s residence to draw",The model is not refusing to answer when no context is provided,"The model is able to extract information from the context, but is not adhering to the format or citations",The model adheres to the format but hallucinates facts,The model responded correctly but continued generating and hallucinated in later parts of the generation
+positive,"My spouse is absent but is presumed to be alive. Can I administer their property even though our matrimonial regime is different, or does someone else have to do it?","Document [1] (Citation: Article 25 of Law N° 71/2024):
+Article 25: Administration of property of the absentee presumed to be alive
+(1) If the absentee is presumed to be alive, the other spouse administers his or her property regardless of the matrimonial regime chosen by the spouses, unless the court determines another method of administering the property.
+(2) If the absentee presumed to be alive was not married and did not appoint an authorised representative, the family council appoints the administrator of the absentee’s property chosen principally from among the absentee’s presumptive heirs.
+(3) When the family council is unable to appoint an administrator of the property of the absentee presumed to be alive or in case of any other dispute, an interested person may apply to the competent court for the appointment of an administrator of the property.
+
+Document [2] (Citation: Article 26 of Law N° 71/2024):
+Article 26: Powers of the administrator of the property of the absentee presumed to be alive
+The spouse of the absentee presumed to be alive or the appointed administrator of his or her property represents him or her in the exercise of his or her rights or in any other property-related transactions in which he or she would be interested and also administers his or her property in accordance with the rules applicable to property administration.
+
+Document [3] (Citation: Article 24 of Law N° 71/2024):
+Article 24: Inventory of the property of the absentee presumed to be alive
+(1) The spouse of the absent person presumed to be alive or any other person appointed as administrator of the patrimony of the absent person presumed to be alive shall submit to the family council an inventory of the patrimony of the absent person presumed to be alive.
+(2) The representative of the family council countersigns the inventory of the property of the absentee presumed to be alive and this inventory is submitted to the civil registrar of the place where the property is located with a copy to the civil registrar of the place of domicile of the absentee presumed to be alive.
+(3) In case of a dispute as to the inventory of the property of the absentee presumed to be alive, an interested person refers the matter to the competent court.
+
+Document [4] (Citation: Article 30 of Law N° 71/2024):
+Article 30: Effects of declaration of absence on the administration of the absentee’s property
+(1) The absentee’s spouse continues to administer the property of the absentee irrespective of the type of matrimonial regime chosen by the spouse, unless otherwise ordered by the court.
+(2) In case the absentee is not married or is widowed and there is nobody to whom he or she entrusted his or her property, the court, after consultation with the family council, appoints the administrator of the property.","According to Article 25 of Law N° 71/2024, the other spouse administers the absentee’s property regardless of the matrimonial regime chosen, unless the court determines another method of administration.","In Rwanda, when a spouse is absent due to illness or other reasons, they may still be considered alive under certain circumstances. The specific rules regarding the administration of marital property can vary depending on the laws and regulations applicable to the individual involved. However, generally speaking, if the spouse is presumed to be alive, they might be able to manage their own affairs without needing to seek outside help.
+
+The key points to consider include:
+
+1. **Marital Property Laws**: The laws governing marital property rights in Rwanda often emphasize the presumption of the deceased’s estate being managed by the surviving spouse.
+2. **Legal Advice**: Consulting with a lawyer familiar with Rwandan law would provide guidance tailored to your situation.
+3. **Community Practices**: In some communities,","Yes, you can administer their property if your spouse is presumed to be alive. According to Article 25 of Law N° 71/2024, if the absentee is presumed to be alive, the other spouse administers his or her property regardless of the matrimonial regime chosen by the spouses, unless the court determines another method of administering the property.","According to Article 16 of Civil Code N° 27/2021, when one spouse is absent from the household while the other is married under community of property regime, the other spouse may apply to the court to appoint an administrator of the estate. According to Article 15 of Civil Code N° 27/2021, when one spouse is absent from the household while the other is married under limited community of property regime, the surviving spouse may apply to the court to appoint an administrator of the estate. The provisions do not specify which spouse’s application should be granted. According to Article 134 of Penal Code N° 27/2021, if the deceased was not","According to Article 25 of Law N° 71/2024, if the absentee is presumed to be alive, either spouse may administer the other spouse’s property regardless of the spouses’ matrimonial regime. According to Article 26 of Law N° 71/2024, when the family council is unable to appoint an administrator because there is a dispute, an interested person may apply to the competent court for the appointment. These provisions say that the other spouse can administer the property regardless of the matrimonial regime, so you may do so under those circumstances. Citation: Articles 25 and 26 of Law N° 71/2024.",The model is not refusing to answer when no context is provided,"Correctly answers the question, but does not adhere with the citations format",The model adheres to the format but hallucinates facts,"The model already answered the question but continued generating which led to hallucinations like using Article 26, which is not helpful for this problem."
+positive,I am preparing to apply to adopt a child. What documents and information must I include in my application file?,"Document [1] (Citation: Article 327 of Law N° 71/2024):
+Article 327: Requirements for prospective adoptive parent
+The adoption applicant’s file comprises the following requirements –
+(a) a letter motivating the relevance for adoption and indicating his or her names, date and place of birth, sex, his or her nationality, permanent address and living conditions of the child to be adopted;
+(b) a document indicating names, age and sex of persons with whom he or she shares the residence if any and their relationship;
+(c) a copy of his or her identification document;
+(d) a document certifying the consent of the spouse and each child aged at least 18 years, if any;
+(e) a copy of certificate of marriage, celibacy, divorce or widowed;
+
+Document [2]:
+(f) a criminal record certificate;
+(g) a medical certificate of each applicant parent and each child sharing the same residence, issued within three months by a recognized doctor;
+(h) documents indicating his or her property.
+
+Document [3] (Citation: Article 342 of Law N° 71/2024):
+Article 342: Requirements for intercountry adoption
+(1) For intercountry adoption to occur, the following requirements must be fulfilled:
+(a) adoption aims at the interests of the child;
+
+Document [4]:
+(b) there is no other person in the State of origin of the child who wishes to adopt the child;
+(c) the persons whose consent is required for the adoption was freely given and that they got advice and were informed on consequences of their consent;
+(d) the receiving State of the adoptee has proved that the prospective adoptive parent has enough means to cater for the child and is of moral integrity;
+(e) the country of the prospective adoptive parent has approved that the child will be allowed to enter and reside in the country on a permanent basis.
+(2) An order of the Minister in charge of children may determine other requirements in intercountry adoption and its procedure.
+
+Document [5] (Citation: Article 326 of Law N° 71/2024):
+Article 326: Requirements for a Rwandan living in Rwanda intending to adopt a child
+(1) A person intending to adopt a child must meet the following requirements:
+(a) to be a person of integrity;
+(b) to have enough resources for him or her to meet the parental responsibility;
+(c) to be at least 21 years old;
+(d) to be at least seven years older than the child to be adopted;
+
+Document [6]:
+(e) to have a fixed address;
+(f) not to have been sentenced to imprisonment for the crime of genocide, the crime of genocide ideology and related crimes, the offence of trafficking in persons, the crime of child defilement, offences of domestic violence or any other felony;
+(g) not to have been deprived of parental authority.
+(2) Subject to the provisions of Paragraph (1)(d) of this Article, the person intending to adopt a child must be at least three years older than the adoptee if they are related up to the seventh degree and the child has mental disability or multiple disabilities.
+(3) The Minister in charge of children, depending on reasonable grounds, may reduce the difference of years provided for in this Article.
+
+Document [7] (Citation: Article 329 of Law N° 71/2024):
+Article 329: Elements to be examined by the court before taking decision
+(1) The application for approval of the adoption record is settled by the competent court by summary proceedings, after examining whether it was done in the child’s interest and if other requirements provided by the law are fulfilled.
+(2) If the prospective adoptive parent dies after filing the claim to the competent court but before the court decides on the matter, the claim is suspended.","According to Article 327 of Law N° 71/2024, your file must include: a letter explaining why adoption is relevant and giving the specified personal details and information about the child; details of anyone who shares your residence and their relationship to you; a copy of your identification document; consent from your spouse and each child aged 18 or older, if applicable; a copy of your marriage, celibacy, divorce or widowhood certificate; a criminal record certificate; medical certificates issued within the previous three months by a recognized doctor for each applicant parent and each child sharing the residence; and documents indicating your property. Citation: Article 327 of Law N° 71/2024.","To prepare for applying to adopt a child, it is important to gather all necessary documentation and information. Here’s what you should consider including in your application file:
+
+1. **Medical History**: Include any medical records or reports that support the adoption plan.
+
+2. **Legal Documents**: Provide copies of all legal documents related to the adoption, such as birth certificates, marriage licenses, and other relevant documents.
+
+3. **Financial Information**: Include proof of income, assets, and financial statements from the previous household where the child was born.
+
+4. **Health Insurance Information**: If applicable, provide proof of health insurance coverage for the child.
+
+5. **Criminal Records**: If the child has been involved in criminal activities, ensure they have completed background checks and","To prepare to apply for an intercountry adoption, you should include the following documents and information:
+
+1. **Letter Motivating Relevance**: This should detail why you are seeking to adopt the child and provide details about the child's name, date of birth, place of birth, gender, nationality, permanent address, and living conditions.
+
+2. **Identification Document**: Provide a copy of your valid identification document.
+
+3. **Consent of Spouse and Children**: Include a copy of the consent of the spouse and each child aged at least 18 years, if applicable.
+
+4. **Medical Certificate**: Obtain a copy of a medical certificate from a recognized doctor certifying the health status of both the prospective adoptive parent and the child.
+
+5",I cannot answer this question based on the provided Rwandan legal context.,"According to Article 327 of Law N° 71/2024, you must submit a letter motivating the adoption and indicating your name, date and place of birth, sex, nationality, permanent address and living conditions of the child. You also must provide an identification document; a document certifying the consent of both spouses and each child aged at least 18, if any; a certificate of marriage, celibacy, divorce or widowhood; a criminal record certificate; a medical certificate for each applicant parent and each child sharing the same residence, issued within three months by a recognized doctor; and documents indicating your property. Citation: Article 327 of Law N° 71/2024.","The model is not refusing to answer when no context is provided, plus the response is generic and does not provide exact documents",The model is misinterpreting the user's question and answering for inter-country adoption,The model correctly refuses to answer when no context is provided.,The response is grounded in real data and adheres to the formating rules
+A,I run a timber business in Rwanda; how do I find out what commercial logging quota applies to my company?,"Document [1] (Citation: Article 36 of Law N° 27/2021):
+Article 36: Registration of State lands
+State lands are registered on the State of
+Rwanda represented by the Ministry.
+However, a State private domain land used for commercial activities may be registered under the name of a State-owned company or a specialized organ according to their responsibilities.
+A public institution or decentralised entities must undertake registration of the land acquired through expropriation, donation, purchase or other way to the
+
+Ministry within a period not exceeding sixty (60) days from the date of acquisition.
+State lands are registered under freehold.
+However, State lands vested in commercial activities are granted an emphyteutic lease.
+
+Document [2] (Citation: Article 43 of Law N° 27/2021):
+Article 43: Rights on natural resources
+Notwithstanding personal land rights and other related properties, all rights of ownership and control of natural resources on, under or upon any land in Rwanda are vested in the State in accordance with relevant laws.
+
+Document [3] (Citation: Article 69 of Law N° 27/2021):
+Article 69: Monitoring and inspection of land use
+Every year, at the latest on 30th September,
+District and City of Kigali submit to the
+Minister a monthly-based cumulative inspection and monitoring report of the previous year on the use of individual land and State land.
+The Minister, after assessing the report, takes appropriate measures, in accordance with relevant laws, for proper exploitation of land.
+
+Document [4] (Citation: Article 37 of Law N° 27/2021):
+Article 37: Organ in charge of management of State lands
+State lands are managed by the
+Government of Rwanda represented by the
+Ministry.
+However, State lands used for commercial activities registered under the name of a
+State-owned company or a specialized organ are managed by that company or specialized organ in accordance with relevant laws.",I cannot answer this question based on the provided Rwandan legal context.,"To determine if there is any specific information or guidelines available regarding commercial logging quotas within the timber industry in Rwanda, one should refer to the official regulations and policies of the country. The relevant Article number from which this information can be found is Article 105 of the Rwanda Forest Act (Article 246 of the Rwandan Constitution). This article outlines the responsibilities of forest management authorities and their duties related to the protection and utilization of forests. For detailed guidance on commercial logging quotas, it would be advisable to consult the latest version of the Rwanda Forest Act or contact the Ministry of Environment and Natural Resources for the most accurate and up-to-date information.","To determine if your timber business qualifies for a commercial logging quota in Rwanda, you should refer to the specific regulations governing such quotas. According to Article 36 of Law N° 27/2021, ""Registration of State lands,"" it states that ""State lands are registered on the State of Rwanda represented by the Ministry."" This means that the land is registered under the authority of the government, which could include the Ministry of Agriculture or Forestry.
+
+For commercial logging quotas, you would need to consult the relevant department responsible for managing forest resources in Rwanda. These departments typically have detailed guidelines and policies regarding logging permits and quotas. They can provide information about the specific requirements and procedures for obtaining a commercial logging permit.
+
+Additionally, you might",I cannot answer this question based on the provided Rwandan legal context.,I cannot answer this question based on the provided Rwandan legal context.,The model is not refusing to answer when  no context is given,The model is responding even when the context does not include any relevant information for the query,The model correctly refuses to answer when no context is provided.,The model correctly refused to answer when context is from a different legal domain
+A,"I was stopped for driving with an expired vehicle inspection certificate—what penalty could I face, and how do I get my car inspected again?","Document [1] (Citation: Article 65 of Law N° 68/2018):
+Article 65: Voidance of a suspended penalty
+A suspended penalty is considered as void if, within the period set out in the decision and not less than one (1) year and not exceeding five (5) years, the convict has not subsequently been convicted of a felony or misdemeanour from the date when the decision ordering the suspension of penalty has become final.
+Otherwise, the suspended penalty as well as the penalty subsequently imposed for the new offence are combined and executed at the same time.
+
+Document [2] (Citation: Article 79 of Law N° 68/2018):
+Article 79: Calculation of the period of prescription of penalties
+The period of prescription of penalties commences from the day on which the decision imposing the penalty or revoking the suspension of penalty has become final.
+However, if the convict has evaded the execution of the penalty, the period of prescription commences when he/she turns himself/herself in to the organs in charge of execution of court decisions.
+
+Document [3] (Citation: Article 36 of Law N° 68/2018):
+Article 36: Penalty of community service in case of the convict’s failure to comply with a court order
+When the Court imposes a fine, court fees, any other payment into the public treasury, and restitutions or payment of damages for the benefit of the victim, it determines, in case of the convict’s failure to execute the court’s convictions against him/her, the period to serve the penalty of community service.
+When the court orders restitutions or payment of damages for the benefit of the victim, community service imposed does not preclude the victim’s right to such restitutions or damages.
+A convict is exempted from serving the penalty of community service if he/she effects payment.
+
+Document [4] (Citation: Article 73 of Law N° 68/2018):
+Article 73: Suspension of penalty execution
+When the execution of the penalty of a fine or that of imprisonment of three (3) months or less has not yet commenced, it is suspended throughout the investigation of the case until the day the decision of presidential pardon is taken.
+During that same period, however, the
+Minister in charge of justice may at any time order the suspension of the execution of any penalties, whether or not their execution has commenced.",I cannot answer this question based on the provided Rwandan legal context.,"Under Rwandan law, if you were stopped for driving with an expired vehicle inspection certificate, you would likely be subject to fines or penalties. The specific penalties can vary depending on the severity of the violation.
+
+1. **Fines**: In most cases, you might receive a fine ranging from 500 to 2,000 Rwandese francs (RWF) (approximately $37 to $194 USD). This is typically imposed by the police officer who made the stop.
+
+2. **Penalties for Driving Without an Inspection Certificate**: Depending on the circumstances, you may also face additional penalties such as:
+   - A warning.
+   - A fine.
+   - A temporary suspension of your license.
+   -","Based on the provided Rwandan legal context, if you were stopped for driving with an expired vehicle inspection certificate, you would likely be subject to a suspension of penalty execution. The document states:
+
+""During that same period, however, the Minister in charge of justice may at any time order the suspension of the execution of any penalties, whether or not their execution has commenced.""
+
+This means that you can apply for a new vehicle inspection certificate and have it issued by the Ministry of Justice before the expiration of the current suspension period. This allows you to continue driving without facing additional penalties while waiting for the new certificate to be issued.",I cannot answer this question based on the provided Rwandan legal context.,I cannot answer this question based on the provided Rwandan legal context.,The model is not refusing to answer when  no context is given,The modes responds incorrectly and did not realize that the context did not have the solution,The model correctly refuses to answer when no context is provided.,The model correctly refused to answer when context is from a different legal domain
+A,I want to fly my drone over Kigali to take aerial photos; do I need a permit or authorization under Rwanda’s aviation regulations?,"Document [1] (Citation: Article 6 of Law N° 27/2021):
+Article 6: Right to freehold
+A Rwandan is entitled to freehold tenure.
+A Presidential Order may, for exceptional circumstances of strategic national interest, approve grant of a freehold title to a foreigner.
+
+Private individual’s land subject to freehold cannot exceed two (2) hectares per person unless an Order of the Minister authorises otherwise.
+An order of the Minister determines categories of lands subject to freehold, modalities of acquisition of freehold, requirements for granting freehold and compliance requirements for the freehold holder.
+
+Document [2] (Citation: Article 14 of Law N° 27/2021):
+Article 14: Compliance requirements for State lands granted for lease or concession
+An investor granted a concession or lease on State lands uses it in conformity with the contract he or she concluded with the
+Government of Rwanda, the business plan approved by the competent authority and other documents determined in accordance with relevant laws.
+In case of non-compliance with the requirements referred to in Paragraph One of this Article, the Government of Rwanda has the right to repossess the land granted to investor in accordance with the provisions of the agreement and relevant laws.
+
+Document [3] (Citation: Article 9 of Law N° 68/2018):
+Article 9: Offence committed on the territory of Rwanda
+An offence is considered to have been committed on the territory of Rwanda if at least one of the acts constituting one of its elements, namely mens rea, actus reus and its being punishable by law, was accomplished in Rwanda.
+An offence is also considered to have been committed on the territory of Rwanda if it is committed by or against a Rwandan citizen in an area that is not subject to the sovereignty of any State or committed by any person on board a vessel flying the flag of Rwanda and in waters which are not subject to the sovereignty of any State or on board a Rwanda registered aircraft in the territory that is not subject to the sovereignty of any State.
+
+Document [4] (Citation: Article 69 of Law N° 27/2021):
+Article 69: Monitoring and inspection of land use
+Every year, at the latest on 30th September,
+District and City of Kigali submit to the
+Minister a monthly-based cumulative inspection and monitoring report of the previous year on the use of individual land and State land.
+The Minister, after assessing the report, takes appropriate measures, in accordance with relevant laws, for proper exploitation of land.",I cannot answer this question based on the provided Rwandan legal context.,"Under Rwanda's aviation regulations, you would typically need a permit or authorization to fly an unmanned aircraft over public areas such as airports, national parks, or other designated zones. The specific requirements can vary depending on the type of drone being used (e.g., fixed-wing, rotary-wing) and its intended use.
+
+For example, if you plan to fly an unmanned aircraft over a national park, you may need a permit from the National Park Authority or another relevant body. Additionally, some regions require special permits for certain types of drones, especially those with larger payloads or higher altitudes.
+
+It is advisable to check the latest regulations issued by the Ministry of Aviation or the relevant authorities before planning your flight. These documents will provide detailed information about the necessary permits required","Yes, you would typically need a permit or authorization from the Ministry of Aviation under Rwanda's aviation regulations. The specific requirements can vary depending on the type of drone used and the airspace involved, but generally, you will need to obtain a flight permit or authorization before taking off and landing your drone over Kigali. This involves registering your drone with the relevant authorities and adhering to the guidelines set forth by the Ministry of Aviation.",I cannot answer this question based on the provided Rwandan legal context.,I cannot answer this question based on the provided Rwandan legal context.,The model is not refusing to answer when  no context is given,"The modes responds incorrectly and did not realize that the context did not have the solution, so it started hallucinating",The model correctly refuses to answer when no context is provided.,The model correctly refused to answer when context is from a different legal domain
+B,I’m trying to get from Nyabugogo to Kimironko by public bus—where can I check which route to take and where to transfer?,"Document [1] (Citation: Article 2 of Law N° 27/2021):
+Article 2: Definitions
+6º national roads: international roads that link Rwanda with neighbouring countries, roads that link Districts or a District and the
+City of Kigali, roads that link areas of tourist significance and facilities of national or international importance such as ports and airports;
+
+Document [2] (Citation: Article 43 of Law N° 66/2018):
+Article 2: Working hours
+Article 43 of the Law n° 66/2018 of
+30/08/2018 regulating labour in Rwanda is amended as follows:
+“An Order of the Minister in charge of labour determines working hours. It also determines the daily break and weekly rest.”
+
+Document [3] (Citation: Article 69 of Law N° 27/2021):
+Article 69: Monitoring and inspection of land use
+Every year, at the latest on 30th September,
+District and City of Kigali submit to the
+Minister a monthly-based cumulative inspection and monitoring report of the previous year on the use of individual land and State land.
+The Minister, after assessing the report, takes appropriate measures, in accordance with relevant laws, for proper exploitation of land.
+
+Document [4] (Citation: Article 45 of Law N° 66/2018):
+Article 4: Types of leave
+Article 45 of the Law n° 66/2018 of
+30/08/2018 regulating labour in Rwanda is amended as follows:
+“Types of leave are as follows –
+(a) annual leave;
+(b) maternity leave and paternity leave;
+(c) sick leave;
+(d) circumstantial leave;
+(e) official public holiday;
+(f) authorized absence.”",I cannot answer this question based on the provided Rwandan legal context.,"To find out which route to take and where to transfer when traveling from Nyabugogo to Kimironko by public bus, you should consult the official website of the local transport authority or contact the nearest bus company directly. They will provide detailed information about the routes available and any transfers required. Additionally, you might want to look into online travel guides or apps that offer real-time updates on bus schedules and routes.","To determine the route to take from Nyabugogo to Kimironko by public bus, you should refer to the following information:
+
+- **Nyabugogo to Kimironko**: The document states that the route involves taking a bus from Nyabugogo to Kigali International Airport (KIA), then transferring to a bus at KIA to reach Kimironko. This route is detailed in Article 2 of Law N° 27/2021 under Article 2: Definitions, which defines ""national roads"" as international roads linking Rwanda with neighboring countries, districts, or cities. Additionally, it mentions that ""Port and airport"" routes are included within these definitions.
+
+- **Kimironko to Nyabug",I cannot answer this question based on the provided Rwandan legal context.,I cannot answer this question based on the provided Rwandan legal context.,The model is not refusing to answer when no context is provided. Also the generated text is generic and does not provide any useful information (hallucinations),"The model blindly uses the context, without realising that the context is not relevant",The model correctly refuses to answer when no context is provided.,The model correctly refused to answer when context is from a non legal topic
+B,"How can I take more professional-looking photos with my smartphone, especially indoors?","Document [1] (Citation: Article 156 of Law N° 68/2018):
+Article 156: Secretly listening to conversations, taking photos or disclosing them
+Any person who, in bad faith and in any way, infringes the personal privacy of another person by:
+1º secretly listening to, or disclosing, people’s confidential statements without authorisation;
+2º taking a photo, audio or visual recording or disclosing them without one’s authorisation; commits an offence.
+Any person who is convicted of any of the acts referred to in Paragraph One of this
+Article, is liable to imprisonment for a term of not less than six (6) months and not more than one (1) year and a fine of not less than one million Rwandan francs (FRW
+1,000,000) and not more than two million
+Rwandan francs (FRW 2,000,000) or only one of these penalties.
+If the acts referred to in Paragraph One of this Article are committed in full view and awareness of the persons concerned and without opposing the acts while they were able to do so, their consent is presumed.
+
+The penalties referred to in Paragraph 2 of this Article also apply to a person who, in bad faith, distributes in any way whatsoever, a photo, audio and video, recordings or documents obtained as a result of one of the acts referred to in
+Paragraph One of this Article.
+
+Document [2] (Citation: Article 165 of Law N° 68/2018):
+Article 165: Definitions
+4º occupied house: any building, house, any 4 room, any mobile hut or any other occupied place used for people’s habitation;
+
+Document [3] (Citation: Article 155 of Law N° 68/2018):
+Article 155: Violation of domicile
+Except in cases provided for by law, any person who, without authorisation of the occupants, enters a home, a house, a room or accommodation of another person, commits an offence. Upon conviction, he/she is liable to imprisonment for a term of not less than two (2) months but less than six (6) months and a fine of not less five hundred thousand Rwandan francs (FRW
+500,000) and not more than one million
+Rwandan francs (FRW 1.000,000).
+If entry into a person’s domicile is by recourse to threats, housebreaking or use of false keys, the penalty is an imprisonment for a term of not less than three (3) years and not more than five (5) years and a fine of more than one million Rwandan francs
+(FRW 1,000,000) and less than two million
+Rwandan francs (FRW 2,000,000) or only one of these penalties.
+
+Document [4] (Citation: Article 165 of Law N° 68/2018):
+Article 165: Definitions
+5º surroundings of an inhabited house: 5 courts, gardens, animal sheds and other things erected therein even if they have their separate enclosure;",I cannot answer this question based on the provided Rwandan legal context.,"To take more professional-looking photos with your smartphone, especially indoors, consider these tips:
+
+1. **Use a High-Sensitivity Camera**: Ensure your camera is set to a high sensitivity mode (like ISO 800 or higher) to capture more detail.
+
+2. **Adjust Exposure**: Use the shutter speed and aperture settings to control exposure. Faster shutter speeds will blur the background while capturing sharp details, while slower ones will freeze motion.
+
+3. **Focus Wisely**: Use the auto-focus feature if available but manually adjust focus as needed. This helps maintain clarity even when moving around.
+
+4. **Lighting**: Utilize natural light where possible. Avoid harsh shadows that might affect your photo quality. If artificial lighting is used, ensure it’s","To take more professional-looking photos with your smartphone, especially indoors, you should consider the following steps:
+
+1. **Use a High-Sensitivity Camera**: Ensure that your smartphone camera has a high sensitivity setting. This will help you capture details from various angles and lighting conditions.
+
+2. **Adjust Lighting Conditions**: Use natural light whenever possible. Avoid harsh shadows or reflections that might affect the quality of your photos. If you need to use artificial lights, ensure they are well-lit and avoid glare.
+
+3. **Focus Wisely**: Use the focus ring on your phone to adjust the depth of field. This allows you to get a good shot of your subject without overexposing it.
+
+4. **Take Multiple Shots**: Try to take multiple shots at","To take professional-looking photos of people indoors, use these tips:
+1. Use natural lighting to highlight details. Natural light lets you see textures and colors that can make objects appear lifelike.
+2. Choose a tripod or stand to keep your phone steady as it moves around, so you don’t accidentally bump into anything.
+3. Use a wide aperture (small f-number) to let in plenty of light while keeping your subject in focus. A 28-75mm lens works well for most indoor scenes.
+4. Change lenses regularly to ensure they provide clear images. Your phone’s camera might get foggy from exposure to sunlight, causing blurry images.
+5. Adjust ISO and shutter speed to balance between too fast or too slow motion",I cannot answer this question based on the provided Rwandan legal context.,The model is not refusing to answer even when the context is not provided,The model is not refusing to answer even when the context is irrelevant,"The model is not refusing to answer when the context is not there. This indicates the shortage of refusal samples in the training set, since the model did not quite capture what falls into non-legal or not.",The model correctly refused to answer when context is from a non legal topic
+B,I’m repainting my garden chairs—what type of paint should I choose so it holds up outdoors in sun and rain?,"Document [1] (Citation: Article 114 of Law N° 71/2024):
+Article 114: Modalities of choosing members of the guardianship council
+(1) The family council chooses members of the guardianship council from close relatives of the child having attained the age of majority, who will be useful to him or her and whose morality ensures the child’s good education.
+Members of the guardianship council choose from among themselves a head, deputy head and rapporteur.
+(2) If the child has siblings having attained the age of majority, they are automatically members of the guardianship council regardless of their number.
+(3) If the number of the child’s relatives by blood or marriage on his or her mother’s or father’s side is insufficient, the civil registrar invites citizens known to have had usual friendship with the child’s father or mother. If there are no such persons, the civil registrar invites the person who usually takes care of the child or persons of integrity of the place of the child’s domicile or residence.
+
+Document [2] (Citation: Article 131 of Law N° 71/2024):
+Article 131: Supervision of a guardian
+(1) If the guardianship council ascertains that the child’s property is managed in a manner detrimental to the child’s interests, it immediately notifies the guardian in writing points of correction.
+(2) If the guardian fails to make the required corrections, the guardianship council terminates his or her functions and replaces him or her with another.
+
+Document [3] (Citation: Article 121 of Law N° 71/2024):
+Article 121: Appointing a guardian
+(1) A guardian is appointed as follows:
+
+(a) the surviving parent has the right to appoint a guardian in a will. The guardian appointed must, before taking up his or her duties, notify the will to the civil registrar for him or her to draw up a guardianship record;
+(b) the surviving parent may, in case of a disability preventing him or her from fulfilling his or her parental responsibility, appoint before the guardianship council, a guardian from his or her relatives or persons outside his or her family in a guardianship record made by a civil registrar. Such record has immediate effect;
+(c) in case of death of both parents before appointing a guardian in a will or in case of their disappearance, absence or their being unknown or in case a child is denied by those he or she considered to be his or her parents or disqualification of parents from exercising parental authority, a guardian is appointed by the guardianship council.
+
+(2) The appointed guardian is free to accept or refuse the responsibility conferred by the guardianship council.
+
+Document [4] (Citation: Article 51 of Law N° 27/2021):
+Article 51: Approval of prescription
+The registrar of land titles of the place where the land is located approves prescription after consideration of the report submitted by the land committee.",I cannot answer this question based on the provided Rwandan legal context.,"To ensure that your garden chairs hold up well outdoors in both direct sunlight and rain, consider choosing a durable, water-resistant paint. Options like acrylic or polyurethane can provide excellent protection against moisture and UV rays. Additionally, look for paints with high gloss or satin finishes to enhance the appearance of your furniture.","Based on the provided Rwandan legal context, the most suitable choice for outdoor painting of garden chairs would depend on several factors including the intended use, climate conditions, and local regulations. However, generally speaking, durable and weather-resistant paints are recommended for outdoor furniture like garden chairs. 
+
+For outdoor use, materials like acrylic, polyurethane, or latex-based paints can be chosen due to their durability and ability to withstand UV radiation and moisture. These types of paints are typically more resistant to fading and cracking compared to traditional wood finishes.
+
+It's important to note that specific guidelines might vary depending on the region and local regulations, but these general principles apply broadly. For instance, some regions might require certain types of paints for outdoor use, while others might allow",I cannot answer this question based on the provided Rwandan legal context.,I cannot answer this question based on the provided Rwandan legal context.,The model is not refusing to answer even when the context is not provided,The model is not refusing to answer even when the context is irrelevant,The model correctly refuses to answer when no context is provided.,The model correctly refused to answer when context is from a non legal topic
+C,I need to contact the institution responsible for land management and use at national level. What is its official name?,"Document [1] (Citation: Article 66 of Law N° 27/2021):
+Article 66: Organ in charge of land management and use at national level
+The land management and use at national level falls under the responsibilities of an institution in charge of land management and use.
+
+Document [2] (Citation: Article 67 of Law N° 27/2021):
+Article 67: Organ in charge of land use management and monitoring at decentralised entity level
+The land use management and monitoring at decentralised entity level fall under responsibilities of the City of Kigali, or
+District with legal personality in accordance with the concerned land territorial location.
+Each organ referred to in Paragraph One of this Article must comply with technical instructions established by an institution in charge of land management and use.
+Any act of land use management and monitoring in contradiction with instructions referred to in Paragraph 2 of this Article is null and void.
+
+Document [3] (Citation: Article 68 of Law N° 27/2021):
+Article 68: Land Committees
+There is established Land Committees responsible for monitoring land management and use.
+An Order of the Minister determines the organisation, functioning, responsibilities and composition of Land Committees and their respective operation levels.
+
+Document [4] (Citation: Article 62 of Law N° 27/2021):
+Article 62: Monitoring compliance with land use and development master plan
+The institution in charge of land use and management monitors the compliance with the land use and development master plan.
+The Ministry in charge of economic planning ensures that sector priorities and investments comply with land use and development master plan.",I cannot answer this question based on the provided Rwandan legal context.,The official name of the institution responsible for land management and use at the national level is the National Land Commission (NLC).,"According to Document [1], the institution responsible for land management and use at national level is ""the institution in charge of land management and use.""",I cannot answer this question based on the provided Rwandan legal context.,"According to Document [1], the institution in charge of land management and use at the institution in charge of land management and use is the one in charge of land management and use. The exact article number is not specified in that document. Citations: Article 66 of Law N° 27/2021; Article 67 of Law N° 27/2021. Based on the provided information, I cannot determine the exact article number.",The model is not refusing to answer when no context is provided and also it is hallucinating the name of the institution,"The response is not wrong, but again since the provided information does not provide the exact name of the institution, then the proper response would have been a refusal",The model correctly refuses to answer when no context is provided.,"The model understands the required citations and the formating, however, it does not correctly deduce that it should have refused to answer this prompt"
+C,"If I’m accused of accidentally modifying information in a military communication system, what exact legal criteria determine whether the offence happened in peacetime or wartime?","Document [1] (Citation: Article 327 of Law N° 68/2018):
+Article 327: Obstructing the military communication system
+Any person who obstructs military communication system by deleting or modifying information, commits an offence. Upon conviction, he/she is liable to imprisonment for a term of not less than five (5) years but less than seven (7) years, if he/she committed it in peacetime.
+If he/she commits the offence in wartime, the applicable penalty is imprisonment for a term of not less than ten (10) years and not more than fifteen (15) years.
+If the acts referred to in Paragraph One of this Article are committed due to carelessness or clumsiness, the applicable penalty is imprisonment for a term of not less than two (2) months but less than six
+(6) months, in peacetime. If they are committed in wartime, the penalty is imprisonment for a term of not less than two
+(2) years and not more than five (5) years.
+
+Document [2] (Citation: Article 323 of Law N° 68/2018):
+Article 323: Disclosure of a code or password of the military communication system
+Any soldier with access to a code or a password of the military communication system who intentionally discloses it to a person who is not authorised to have access to it or, in any way, discloses to an unauthorized person the operating mechanism of the communication system, commits an offence.
+
+Upon conviction, he/she is liable to imprisonment for a term of not less than two
+(2) years and not more than five (5) years, in peacetime. If he/she commits the offence in wartime, the applicable penalty is imprisonment for a term of more than five
+(5) years and not more than seven (7) years.
+If he/she engages in such acts due to clumsiness, negligence, carelessness, lack of attention, failure to observe the rules or through any other default, the applicable penalty is an imprisonment for a term of not less than two (2) months but less than six
+(6) months, in peacetime. If he/she commits the offence in wartime, the applicable penalty is imprisonment for a term of not less than one (1) year and not more than two
+(2) years.
+
+Document [3] (Citation: Article 322 of Law N° 68/2018):
+Article 322: Interference with the military communication system by a civilian
+Any civilian who commits offences provided for in this Section is tried by competent courts, and is liable to the same penalties as those applicable to soldiers.
+
+Document [4] (Citation: Article 326 of Law N° 68/2018):
+Article 326: Jamming a military communication system
+Any person who fraudulently blocks or jams the functioning of military communication system, commits an offence. Upon conviction, he/she is liable to imprisonment for a term of not less than three (3) years and not more than five (5) years, if committed in peacetime.
+If the acts referred to in Paragraph One of this Article are committed in wartime, the applicable penalty is imprisonment for a term of not less than ten (10) years and not more than fifteen (15) years.",I cannot answer this question based on the provided Rwandan legal context.,"In Rwanda, the legal framework governing such accusations involves several key elements that can help determine whether an offense occurred during peacetime or wartime. The specific criteria depend on the circumstances surrounding the alleged incident.
+
+1. **Timing**: Accusations of accidental modification should be considered under the principle of ""accidental damage"" rather than ""accidental injury."" This means that if the alteration was unintentional and not caused by intentional actions, it would typically fall within the scope of peacetime law.
+
+2. **Nature of the Modification**: The nature of the modification itself is crucial. For example, altering data without authorization could be seen as a breach of confidentiality, which might be more appropriately addressed under wartime laws.
+
+3. **Impact on Military Operations**:","Based on the provided Rwandan legal texts, there is no explicit mention of determining whether an offence occurred in peacetime or wartime solely by reference to the type of communication system involved. The documents do not provide specific criteria for distinguishing between peacetime and wartime actions related to military communications systems. Therefore, without additional context from official Rwandan law enforcement or judicial authorities, it is impossible to definitively state which type of offence applies based solely on the nature of the communication system being modified.",I cannot answer this question based on the provided Rwandan legal context.,I cannot answer this question based on the provided Rwandan legal context.,The model is not refusing to answer even when the context is not provided,The model failed to follow instructions of refusing to answer when an answer can not be generated from the context.,The model correctly refuses to answer when no context is provided.,The model correctly refused to answer when context does not sufficiently answer the user's question
+C,"I’ve returned to work after giving birth, but my employer and I disagree about when I can take my one-hour daily breastfeeding break. Does the law specify the exact time of day I must take it?","Document [1] (Citation: Article 59 of Law N° 66/2018):
+Article 59: Breastfeeding period
+During twelve (12) months from the date of her resuming to work, a female employee who has given birth is entitled to a breastfeeding break of one (1) hour per day.
+The breastfeeding break granted to a female employee by the Law is deducted from the working hours and must be remunerated.
+
+Document [2] (Citation: Article 61 of Law N° 66/2018):
+Article 61: Resuming work after maternity leave
+A female employee who has given birth must resume her work on her same post, at the end of maternity leave.
+An employer cannot give a female employee who has given birth a notice of dismissal which is included in her maternity leave.
+
+Document [3] (Citation: Article 63 of Law N° 66/2018):
+Article 63: Working conditions for a pregnant or breastfeeding woman
+A pregnant or breastfeeding woman is not employed for work which can cause harm to her life that of her foetus or baby in case she presents a medical certificate from a recognised medical doctor.
+If it appears that there might be health risks to the pregnant or breastfeeding woman, the following measures are taken:
+7 º removing what can cause such risks;
+8 º facilitating the exercise of her work.
+
+Document [4] (Citation: Article 58 of Law N° 66/2018):
+Article 58: Benefits Granted to a woman on Maternity leave
+Maternity leave benefits are granted in accordance with relevant Laws.",I cannot answer this question based on the provided Rwandan legal context.,"The law does not specifically address the exact timing of an employee’s one-hour daily breastfeeding break. However, under most workplace policies, employers typically have flexibility regarding breaks during pregnancy or maternity leave. Typically, employees may be allowed up to 30 minutes of breast-feeding time per day, which is often considered as part of their regular working hours.
+
+If there is a specific policy that mandates a particular time frame for breastfeeding breaks, it would need to be clearly stated in the company handbook or written agreement between the employee and employer. Without such information, it is difficult to determine if the current situation falls within any established guidelines.
+
+In summary, while the law generally doesn't mandate a precise time for breastfeeding breaks, employers should review their policies to ensure they","Based on the provided Rwandan legal context, the law does not specifically outline the exact time of day during which a female employee must take their one-hour daily breastfeeding break. The law only states that the breastfeeding break is deducted from the working hours and must be remunerated. Therefore, the correct answer is:
+
+""I cannot answer this question based on the provided Rwandan legal context.",I cannot answer this question based on the provided Rwandan legal context.,I cannot answer this question based on the provided Rwandan legal context.,The model is not refusing to answer even when the context is not provided,The model is not refusing to answer when the context does not contain exact information the user is looking for.,The model correctly refuses to answer when no context is provided.,The model correctly refused to answer when context does not sufficiently answer the user's question
