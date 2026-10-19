@@ -7,7 +7,7 @@ The primary dataset is the official English text of those laws, taken from the [
 - Live application: [https://qa-bot-fmwt.onrender.com/](https://qa-bot-fmwt.onrender.com/)
 - Fine-tuned adapter: [kagaba-etienne/rwandan-legal-assistant-qlora](https://huggingface.co/kagaba-etienne/rwandan-legal-assistant-qlora), loaded on [Qwen/Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)
 - Law corpus: [https://www.amategeko.gov.rw/](https://www.amategeko.gov.rw/)
-- Demo video: to be added
+- Demo video: [https://youtu.be/iQSEPt51s_A](https://youtu.be/iQSEPt51s_A)
 
 ## Problem
 
